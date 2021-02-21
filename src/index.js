@@ -7,10 +7,10 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <Weather />
+      <Weather/>
     </div>
-  );
+  )
 }
 
 const rootElement = document.getElementById("root");
-ReactDOM.render(<App />, rootElement);
+ReactDOM.render(<App/>, rootElement);
